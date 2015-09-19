@@ -1,0 +1,504 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BCCEDC691BAE2A72004D9574 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCCEDC681BAE2A72004D9574 /* AppDelegate.swift */; };
+		BCCEDC6B1BAE2A72004D9574 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCCEDC6A1BAE2A72004D9574 /* ViewController.swift */; };
+		BCCEDC6E1BAE2A73004D9574 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCCEDC6C1BAE2A73004D9574 /* Main.storyboard */; };
+		BCCEDC701BAE2A73004D9574 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCCEDC6F1BAE2A73004D9574 /* Assets.xcassets */; };
+		BCCEDC731BAE2A73004D9574 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCCEDC711BAE2A73004D9574 /* LaunchScreen.storyboard */; };
+		BCCEDC7E1BAE2A75004D9574 /* eggplan_brownieTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCCEDC7D1BAE2A75004D9574 /* eggplan_brownieTests.swift */; };
+		BCCEDC891BAE2A75004D9574 /* eggplan_brownieUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCCEDC881BAE2A75004D9574 /* eggplan_brownieUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BCCEDC7A1BAE2A75004D9574 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BCCEDC5D1BAE2A6F004D9574 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCCEDC641BAE2A71004D9574;
+			remoteInfo = "eggplan-brownie";
+		};
+		BCCEDC851BAE2A75004D9574 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BCCEDC5D1BAE2A6F004D9574 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCCEDC641BAE2A71004D9574;
+			remoteInfo = "eggplan-brownie";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BCCEDC651BAE2A72004D9574 /* eggplan-brownie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "eggplan-brownie.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCCEDC681BAE2A72004D9574 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BCCEDC6A1BAE2A72004D9574 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BCCEDC6D1BAE2A73004D9574 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BCCEDC6F1BAE2A73004D9574 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BCCEDC721BAE2A73004D9574 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BCCEDC741BAE2A73004D9574 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCCEDC791BAE2A75004D9574 /* eggplan-brownieTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "eggplan-brownieTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCCEDC7D1BAE2A75004D9574 /* eggplan_brownieTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eggplan_brownieTests.swift; sourceTree = "<group>"; };
+		BCCEDC7F1BAE2A75004D9574 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCCEDC841BAE2A75004D9574 /* eggplan-brownieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "eggplan-brownieUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCCEDC881BAE2A75004D9574 /* eggplan_brownieUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eggplan_brownieUITests.swift; sourceTree = "<group>"; };
+		BCCEDC8A1BAE2A75004D9574 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BCCEDC621BAE2A71004D9574 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCCEDC761BAE2A75004D9574 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCCEDC811BAE2A75004D9574 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BCCEDC5C1BAE2A6E004D9574 = {
+			isa = PBXGroup;
+			children = (
+				BCCEDC671BAE2A72004D9574 /* eggplan-brownie */,
+				BCCEDC7C1BAE2A75004D9574 /* eggplan-brownieTests */,
+				BCCEDC871BAE2A75004D9574 /* eggplan-brownieUITests */,
+				BCCEDC661BAE2A72004D9574 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BCCEDC661BAE2A72004D9574 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BCCEDC651BAE2A72004D9574 /* eggplan-brownie.app */,
+				BCCEDC791BAE2A75004D9574 /* eggplan-brownieTests.xctest */,
+				BCCEDC841BAE2A75004D9574 /* eggplan-brownieUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BCCEDC671BAE2A72004D9574 /* eggplan-brownie */ = {
+			isa = PBXGroup;
+			children = (
+				BCCEDC681BAE2A72004D9574 /* AppDelegate.swift */,
+				BCCEDC6A1BAE2A72004D9574 /* ViewController.swift */,
+				BCCEDC6C1BAE2A73004D9574 /* Main.storyboard */,
+				BCCEDC6F1BAE2A73004D9574 /* Assets.xcassets */,
+				BCCEDC711BAE2A73004D9574 /* LaunchScreen.storyboard */,
+				BCCEDC741BAE2A73004D9574 /* Info.plist */,
+			);
+			path = "eggplan-brownie";
+			sourceTree = "<group>";
+		};
+		BCCEDC7C1BAE2A75004D9574 /* eggplan-brownieTests */ = {
+			isa = PBXGroup;
+			children = (
+				BCCEDC7D1BAE2A75004D9574 /* eggplan_brownieTests.swift */,
+				BCCEDC7F1BAE2A75004D9574 /* Info.plist */,
+			);
+			path = "eggplan-brownieTests";
+			sourceTree = "<group>";
+		};
+		BCCEDC871BAE2A75004D9574 /* eggplan-brownieUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BCCEDC881BAE2A75004D9574 /* eggplan_brownieUITests.swift */,
+				BCCEDC8A1BAE2A75004D9574 /* Info.plist */,
+			);
+			path = "eggplan-brownieUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BCCEDC641BAE2A71004D9574 /* eggplan-brownie */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCCEDC8D1BAE2A75004D9574 /* Build configuration list for PBXNativeTarget "eggplan-brownie" */;
+			buildPhases = (
+				BCCEDC611BAE2A71004D9574 /* Sources */,
+				BCCEDC621BAE2A71004D9574 /* Frameworks */,
+				BCCEDC631BAE2A71004D9574 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "eggplan-brownie";
+			productName = "eggplan-brownie";
+			productReference = BCCEDC651BAE2A72004D9574 /* eggplan-brownie.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BCCEDC781BAE2A75004D9574 /* eggplan-brownieTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCCEDC901BAE2A75004D9574 /* Build configuration list for PBXNativeTarget "eggplan-brownieTests" */;
+			buildPhases = (
+				BCCEDC751BAE2A75004D9574 /* Sources */,
+				BCCEDC761BAE2A75004D9574 /* Frameworks */,
+				BCCEDC771BAE2A75004D9574 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BCCEDC7B1BAE2A75004D9574 /* PBXTargetDependency */,
+			);
+			name = "eggplan-brownieTests";
+			productName = "eggplan-brownieTests";
+			productReference = BCCEDC791BAE2A75004D9574 /* eggplan-brownieTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BCCEDC831BAE2A75004D9574 /* eggplan-brownieUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCCEDC931BAE2A75004D9574 /* Build configuration list for PBXNativeTarget "eggplan-brownieUITests" */;
+			buildPhases = (
+				BCCEDC801BAE2A75004D9574 /* Sources */,
+				BCCEDC811BAE2A75004D9574 /* Frameworks */,
+				BCCEDC821BAE2A75004D9574 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BCCEDC861BAE2A75004D9574 /* PBXTargetDependency */,
+			);
+			name = "eggplan-brownieUITests";
+			productName = "eggplan-brownieUITests";
+			productReference = BCCEDC841BAE2A75004D9574 /* eggplan-brownieUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BCCEDC5D1BAE2A6F004D9574 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Stepo Lab";
+				TargetAttributes = {
+					BCCEDC641BAE2A71004D9574 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					BCCEDC781BAE2A75004D9574 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = BCCEDC641BAE2A71004D9574;
+					};
+					BCCEDC831BAE2A75004D9574 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = BCCEDC641BAE2A71004D9574;
+					};
+				};
+			};
+			buildConfigurationList = BCCEDC601BAE2A6F004D9574 /* Build configuration list for PBXProject "eggplan-brownie" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BCCEDC5C1BAE2A6E004D9574;
+			productRefGroup = BCCEDC661BAE2A72004D9574 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BCCEDC641BAE2A71004D9574 /* eggplan-brownie */,
+				BCCEDC781BAE2A75004D9574 /* eggplan-brownieTests */,
+				BCCEDC831BAE2A75004D9574 /* eggplan-brownieUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BCCEDC631BAE2A71004D9574 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCCEDC731BAE2A73004D9574 /* LaunchScreen.storyboard in Resources */,
+				BCCEDC701BAE2A73004D9574 /* Assets.xcassets in Resources */,
+				BCCEDC6E1BAE2A73004D9574 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCCEDC771BAE2A75004D9574 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCCEDC821BAE2A75004D9574 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BCCEDC611BAE2A71004D9574 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCCEDC6B1BAE2A72004D9574 /* ViewController.swift in Sources */,
+				BCCEDC691BAE2A72004D9574 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCCEDC751BAE2A75004D9574 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCCEDC7E1BAE2A75004D9574 /* eggplan_brownieTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCCEDC801BAE2A75004D9574 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCCEDC891BAE2A75004D9574 /* eggplan_brownieUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BCCEDC7B1BAE2A75004D9574 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BCCEDC641BAE2A71004D9574 /* eggplan-brownie */;
+			targetProxy = BCCEDC7A1BAE2A75004D9574 /* PBXContainerItemProxy */;
+		};
+		BCCEDC861BAE2A75004D9574 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BCCEDC641BAE2A71004D9574 /* eggplan-brownie */;
+			targetProxy = BCCEDC851BAE2A75004D9574 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BCCEDC6C1BAE2A73004D9574 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCCEDC6D1BAE2A73004D9574 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BCCEDC711BAE2A73004D9574 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCCEDC721BAE2A73004D9574 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BCCEDC8B1BAE2A75004D9574 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BCCEDC8C1BAE2A75004D9574 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BCCEDC8E1BAE2A75004D9574 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "eggplan-brownie/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.stepolab.eggplan-brownie";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BCCEDC8F1BAE2A75004D9574 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "eggplan-brownie/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.stepolab.eggplan-brownie";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BCCEDC911BAE2A75004D9574 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "eggplan-brownieTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.stepolab.eggplan-brownieTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/eggplan-brownie.app/eggplan-brownie";
+			};
+			name = Debug;
+		};
+		BCCEDC921BAE2A75004D9574 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "eggplan-brownieTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.stepolab.eggplan-brownieTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/eggplan-brownie.app/eggplan-brownie";
+			};
+			name = Release;
+		};
+		BCCEDC941BAE2A75004D9574 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "eggplan-brownieUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.stepolab.eggplan-brownieUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "eggplan-brownie";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		BCCEDC951BAE2A75004D9574 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "eggplan-brownieUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.stepolab.eggplan-brownieUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "eggplan-brownie";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BCCEDC601BAE2A6F004D9574 /* Build configuration list for PBXProject "eggplan-brownie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCCEDC8B1BAE2A75004D9574 /* Debug */,
+				BCCEDC8C1BAE2A75004D9574 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCCEDC8D1BAE2A75004D9574 /* Build configuration list for PBXNativeTarget "eggplan-brownie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCCEDC8E1BAE2A75004D9574 /* Debug */,
+				BCCEDC8F1BAE2A75004D9574 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BCCEDC901BAE2A75004D9574 /* Build configuration list for PBXNativeTarget "eggplan-brownieTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCCEDC911BAE2A75004D9574 /* Debug */,
+				BCCEDC921BAE2A75004D9574 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BCCEDC931BAE2A75004D9574 /* Build configuration list for PBXNativeTarget "eggplan-brownieUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCCEDC941BAE2A75004D9574 /* Debug */,
+				BCCEDC951BAE2A75004D9574 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BCCEDC5D1BAE2A6F004D9574 /* Project object */;
+}
