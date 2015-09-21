@@ -22,7 +22,7 @@ class ViewController: UIViewController {
         
         let meal = Meal( name: name, happiness: happiness! )
         
-        print( meal )
+        print( "Eaten: \(meal.name) - \(meal.happiness)" )
     }
 }
 
